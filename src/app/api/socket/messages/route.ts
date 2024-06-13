@@ -131,7 +131,7 @@ export async function POST(req: NextRequest) {
             },
         });
 
-        const channelKey = `chat:${chatId}:messages:api`;
+        // const channelKey = `chat:${chatId}:messages:api`;
         const chatChannelId = "chat:message:add";
 
         socket.emit(chatChannelId, {

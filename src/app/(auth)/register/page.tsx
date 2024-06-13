@@ -179,7 +179,7 @@ export default function Login() {
                         render={({ field }) => (
                             <FormItem>
                                 <FormLabel className="text-gray-100">
-                                    Password
+                                    Confirm Password
                                 </FormLabel>
                                 <FormControl>
                                     <Input
